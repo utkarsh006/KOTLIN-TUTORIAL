@@ -1,3 +1,6 @@
+Var is used to create mutable variables. Mutable is a type of variable that can be changed
+
+
 fun main() 
 {
     var fullname = "Utkarsh Saxena"
