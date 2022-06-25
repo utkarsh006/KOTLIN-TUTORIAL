@@ -1,0 +1,12 @@
+READ ONLY VARIABLES
+
+fun main() 
+{
+    val fullname = "Utkarsh Saxena"
+    println(fullname)
+    
+    fullname = "Raj jain"  // Val cannot be reassigned
+    
+    val age = 30
+    println(age)
+}
