@@ -1,0 +1,10 @@
+fun main() 
+{
+    var fullname = "Utkarsh Saxena"
+    println(fullname)
+    
+    fullname = "Nishkarsh Saxena"
+    println(fullname)
+    
+    println(fullname.isEmpty())
+}
