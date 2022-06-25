@@ -1,0 +1,23 @@
+fun main() 
+{
+    val fullname = "Utkarsh Saxena"
+    println(fullname::class)
+    
+    val age = 30
+    println(age::class)
+}
+
+O/P : class java.lang.String (Kotlin reflection is not available)
+      int (Kotlin reflection is not available)
+      
+      
+fun main() 
+{
+    val fullname :String = "Utkarsh Saxena"
+    var age : Int = 30
+    
+    println(fullname)
+    println(age)
+    
+    
+}
