@@ -1,0 +1,23 @@
+fun main() 
+{
+    val a :Byte = 8             // 8 bit signed integer
+    val b :Short = 16          // 16 bit signed integer
+    val c :Int = 32           // 32 bit signed integer
+    val d :Long = 64         // 64 bit signed integer
+    
+    val myfloat :Float = 32.00F    // 32 bit floating point number
+    var mydouble :Double = 64.00   // 64 bit floating point number
+    
+    // All of these datatypes implement number abstract class
+    // Every thing in kotlin is a object hence we can call methods and properties on these
+    
+    println(a.toDouble())
+    println(a.toDouble() ::class)
+    
+    println(a.toChar())
+    println(a.toChar() ::class)
+    
+    val bigLong : Long = 1_000_000
+    println(bigLong)
+     
+}
