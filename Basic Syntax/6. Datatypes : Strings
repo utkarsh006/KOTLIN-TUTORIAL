@@ -1,0 +1,12 @@
+fun main() 
+{
+    val fullname :String = "Utkarsh Saxena"
+    println(fullname.length)
+    println(fullname.decapitalize())
+    println(fullname.toLowerCase())
+    
+    val c:Char = 'x'        // char is a 16 bit unicode character
+    
+    println(c ::class)
+      
+}
