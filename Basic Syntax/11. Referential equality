@@ -1,0 +1,13 @@
+fun main() 
+{
+    var a = Person("Raj")
+    var b = Person("Raj")
+    
+   // numbers, chars, bool are represented as primitives internally but to users they look like ordinary classes
+    println(a === b)   
+      
+}
+
+class Person(var name:String)
+
+O/P : False bcz both objects are not pointing to the same memory since they are created in different memory locations
