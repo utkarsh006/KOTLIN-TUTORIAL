@@ -1,0 +1,10 @@
+fun main() 
+{
+    var name1 = "Ram"
+    var name2 = "Shyam"
+    
+    println(name1 != name2)
+    
+    println(name1 == name2)   
+      
+}
