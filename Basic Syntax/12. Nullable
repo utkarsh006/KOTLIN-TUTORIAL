@@ -1,0 +1,13 @@
+fun main() 
+{
+    var name : String ?= "Utkarsh"
+    name = null
+    
+    var age: Int ?= 22
+    age = null
+      
+    println(age)
+    
+}
+
+
