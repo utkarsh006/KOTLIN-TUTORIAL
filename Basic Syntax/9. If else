@@ -1,0 +1,10 @@
+fun main() 
+{
+    var calories = 200
+    if(calories>2000)
+      println("Consumed all calories")
+    else
+      println("Calories left")
+      
+}
+
