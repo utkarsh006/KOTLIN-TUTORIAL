@@ -1,0 +1,30 @@
+fun main() 
+{
+    var message :String = """ 
+    Hello,
+    This is Utkarsh
+    How are you?
+    """.trimIndent()
+    
+    println(message)
+    
+    //trim indent detects a common minimal indent of all input lines and removes it from every line
+    // blank lines don't affect the detected indent level
+    println("\n")
+    
+    var txt :String = """ 
+    Hello,
+    This is Utkarsh
+    How are you?
+    """.replaceIndent("abc- -")
+    
+    println(txt)
+    
+    println("\n")
+    
+    var name = "Utkarsh"
+    var age = 22
+    println("Hello " + name)
+    println("Hello  $name, Your age : $age, Your name is of ${name.length} characters")
+       
+}
