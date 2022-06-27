@@ -1,0 +1,11 @@
+fun main() 
+{
+    var name : String = "Utkarsh"
+    val length1 = name.length
+    println(length1)
+    
+    var lastname : String ?= "Saxena"
+    val length2 = lastname ?.length
+    println(length2)
+   
+}
